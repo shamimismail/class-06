@@ -1,0 +1,446 @@
+
+
+/* Responsive */
+@media only screen and (min-width: 1000px) and (max-width: 1335px) {
+	header .header-center {
+	width: 28%;
+	}
+	header .header-center .header-search {
+		width: 15%;
+		padding: 14px 8px;
+	}
+	header .header-center .header-search a img {
+		width: 25px;
+	}
+	header .header-right {
+	width:42%;
+	}
+	header .header-right ul {
+	margin-left: 20px;
+	}
+	header .header-center .header-center-menu ul li a {
+		padding: 15px 4px;
+		font-size: 14px;
+	}
+	header .header-right ul li a {
+		padding: 15px 4px;
+		font-size: 15px;
+	}
+	.slider-section .carousel-caption .slider-buttom {
+    margin-top: 7%;
+	}
+	/***********************************
+		banner-section starts
+	***********************************/
+	.banner-section label {
+    padding-top: 20px;
+    font-size: 15px;
+	}
+	.banner-section .banner-section-trips a,
+	.banner-section .banner-section-tech a {
+		top: 50%;
+	}
+	.banner-section .banner-section-trips h3,
+	.banner-section .banner-section-tech h3 {
+		font-size: 25px;
+	}
+	.section-1 .section-1-text-part-1 {
+		margin-top: 90px;
+	}
+	.section-1 .section-1-box-images .Nature a,
+	.section-1 .section-1-box-images .People a,
+	.section-1 .section-1-box-images .tech a,
+	.section-1 .section-1-box-images .trips a,
+	.section-1 .section-1-box-images .Fashion a {
+		top: 40%;
+	}
+	.section-2 .section-2-trips a,
+	.section-2 .section-2-tech a {
+		top: 45%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+	header .header-center {
+	width: 28%;
+	}
+	header .header-center .header-search {
+		width: 15%;
+		padding: 17px 8px;
+	}
+	header .header-center .header-search a img {
+		width: 20px;
+	}
+	header .header-right {
+	width:42%;
+	}
+	header .header-right ul {
+	margin-left: 20px;
+	}
+	header .header-center .header-center-menu ul li a {
+		padding: 15px 4px;
+		font-size: 13px;
+	}
+	header .header-right ul li a.header-right-last {
+		display: none;
+	}
+	header .header-right ul li a {
+		padding: 15px 4px;
+		font-size: 14px;
+	}
+	/***********************************
+		banner-section starts
+	***********************************/
+	.banner-section label {
+    padding-top: 20px;
+    font-size: 15px;
+	}
+	.banner-section .banner-section-trips a,
+	.banner-section .banner-section-tech a {
+		top: 40%;
+	}
+	.banner-section .banner-section-trips h3,
+	.banner-section .banner-section-tech h3 {
+		font-size: 20px;
+	}
+	/***********************************
+		section-1 starts
+	***********************************/
+	.section-1 .section-1-text-part-1 {
+		margin-top: 0px;
+	}
+	.section-1 .section-1-text-part-1 h1 {
+		font-size: 25px;
+	}
+	.section-1 .section-1-text-part-1 p {
+		font-size: 20px;
+    	margin-bottom: 45px;
+	}
+	.section-1 .section-1-text-part-1 .trips h3 {
+		font-size: 15px;
+	}
+	.section-1 .section-1-box-images .Nature a,
+	.section-1 .section-1-box-images .People a,
+	.section-1 .section-1-box-images .tech a,
+	.section-1 .section-1-box-images .trips a,
+	.section-1 .section-1-box-images .Fashion a {
+		top: 35%;
+	}
+	.section-1 .section-1-box-images .Nature h3,
+	.section-1 .section-1-box-images .People h3,
+	.section-1 .section-1-box-images .tech h3,
+	.section-1 .section-1-box-images .trips h3,
+	.section-1 .section-1-box-images .Fashion h3 {
+		font-size: 20px;
+	}
+	.section-2 label {
+	    padding-top: 10px;
+	    font-size: 12px;
+	}
+	.section-2 .section-2-trips a,
+	.section-2 .section-2-tech a {
+		top: 45%;
+	}
+	.section-2 .section-2-tech h3,
+	.section-2 .section-2-trips h3 {
+		font-size: 22px;
+	}
+	.footer p {
+		font-size: 20px;
+	}
+
+}
+
+/* Medium Devices, Tablet, Mobile */    
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+	header {
+		height: 34px;
+	}
+	header .header-left h1 {
+		font-size: 15px;
+	}
+	header .header-left {
+	padding: 10px;
+	width: 30%;
+	}
+	header .header-center {
+		display: none;
+	}
+	header .header-right {
+	width:70%;
+	}
+	header .header-right ul {
+		margin-left: 10px;
+	}
+	header .header-right ul li a {
+		float: left;
+		padding: 10px 3px;
+		font-size: 12px;
+	}
+	header .header-right ul li a:hover {
+		border-bottom: 2px solid #405fab;
+		height: 35px;
+	}
+	header .header-right ul li a.header-right-last {
+		font-size: 20px;
+		padding: 0px 5px;
+	}
+	/***********************************
+		slider-section starts
+	***********************************/
+	.slider-section .carousel-caption {
+    width: 75%;
+    top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 20px;
+	}
+	.slider-section img.image-1 {
+		width: 80px;
+	}
+	.slider-section .carousel-caption label {
+	font-size: 18px;
+	margin-top: 0px;
+	}
+	.slider-section .carousel-caption .slider-buttom {
+	margin-top: 5%;
+	}
+	/***********************************
+		banner-section starts
+	***********************************/
+	.banner-section label {
+    padding-top: 20px;
+    font-size: 15px;
+	}
+	.banner-section .banner-section-trips a,
+	.banner-section .banner-section-tech a {
+		top: 30%;
+	}
+	.banner-section .banner-section-trips h3,
+	.banner-section .banner-section-tech h3 {
+		font-size: 15px;
+	}
+	/***********************************
+		section-1 starts
+	***********************************/
+	.section-1 .section-1-text-part-1 {
+		margin-top: 0px;
+	}
+	.section-1 .section-1-text-part-1 h1 {
+		font-size: 25px;
+	}
+	.section-1 .section-1-text-part-1 p {
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+	.section-1 .section-1-text-part-1 .trips h3 {
+		font-size: 15px;
+	}
+	.section-1 .section-1-box-images .Nature a,
+	.section-1 .section-1-box-images .People a,
+	.section-1 .section-1-box-images .tech a,
+	.section-1 .section-1-box-images .trips a,
+	.section-1 .section-1-box-images .Fashion a {
+		top: 35%;
+	}
+	.section-1 .section-1-box-images .Nature h3,
+	.section-1 .section-1-box-images .People h3,
+	.section-1 .section-1-box-images .tech h3,
+	.section-1 .section-1-box-images .trips h3,
+	.section-1 .section-1-box-images .Fashion h3 {
+		font-size: 15px;
+	}
+	.section-1-box-images
+	.section-1-box-image-1,
+	.section-1-box-image-2,
+	.section-1-box-image-3,
+	.section-1-box-image-4,
+	.section-1-box-image-5,
+	.section-1-box-image-6 {
+		width: 48%;
+	}
+	.section-1-box-images
+	.section-1-box-image-1,
+	.section-1-box-image-3,
+	.section-1-box-image-5 {
+		margin-right: 2%;
+	}
+	.section-2 label {
+	    padding-top: 10px;
+	    font-size: 12px;
+	}
+	.section-2 .section-2-trips a,
+	.section-2 .section-2-tech a {
+		top: 30%;
+	}
+	.section-2 .section-2-tech h3,
+	.section-2 .section-2-trips h3 {
+		font-size: 18px;
+	}
+	.footer p {
+		font-size: 15px;
+	}
+	.main-footer {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.footer-bottom {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+     
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+	h3,h4 {
+		font-size: 15px;
+	}
+	header {
+	    height: 70px;
+	}
+	ul li a {
+		font-size: 10px;
+	}
+	header .header-left {
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	}
+	header .header-right ul li a {
+		padding: 10px 5px;
+		font-size: 14px;
+	}
+	header .header-right ul li a:hover {
+	border-bottom: 2px solid #405fab;
+	height: 41px;
+	}
+	header .header-center {
+		display: none;
+	}
+	header .header-right {
+		width: 100%;
+		display: block;
+	}
+	header .header-right ul {
+	margin-left: 20px;
+}
+	header .header-right ul li a.header-right-last {
+		display: none;
+	}
+	.carousel-control.left,
+	.carousel-control.right {
+		background-image: none;
+	}
+	.slider-section .carousel-caption {
+    width: 75%;
+    top: 0px;
+	}
+	.slider-section .carousel-caption label {
+		font-size: 15px;
+		margin-top: 0;
+	}
+	.slider-section .carousel-caption .slider-buttom {
+		display: none;
+	}
+	.slider-section img.slider-icon-right,
+	.slider-section img.slider-icon-left {
+		margin-top: 70px;
+		padding: 5px;
+	}
+	.slider-section img.image-1 {
+		width: 50px;
+	}
+	.banner-section-trips a h3 {
+		font-size: 15px;
+	}
+	.section-1 .section-1-text-part-1 {
+		margin-top: 0px;
+	}
+	.section-1 .section-1-text-part-1 h1 {
+		font-size: 20px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	.section-1 .section-1-text-part-1 p {
+		display: none;
+	}
+	.section-1 .section-1-box-images .Nature a,
+	.section-1 .section-1-box-images .People a,
+	.section-1 .section-1-box-images .tech a,
+	.section-1 .section-1-box-images .trips a,
+	.section-1 .section-1-box-images .Fashion a {
+		top: 25%;
+	}
+	.section-1 .section-1-box-images .Nature h3,
+	.section-1 .section-1-box-images .People h3,
+	.section-1 .section-1-box-images .tech h3,
+	.section-1 .section-1-box-images .trips h3,
+	.section-1 .section-1-box-images .Fashion h3 {
+		font-size: 12px;
+	}
+	.banner-section .banner-section-trips a,
+	.banner-section .banner-section-tech a {
+		top: 20%;
+	}
+	.banner-section .banner-section-trips h3,
+	.banner-section .banner-section-tech h3 {
+		font-size: 13px;
+	}
+	.banner-section label {
+		padding-bottom: 0;
+		font-size: 12px;
+	}
+	.section-1-box-images
+	.section-1-box-image-1,
+	.section-1-box-image-2,
+	.section-1-box-image-3,
+	.section-1-box-image-4,
+	.section-1-box-image-5,
+	.section-1-box-image-6 {
+		width: 48%;
+	}
+	.section-1-box-images
+	.section-1-box-image-1,
+	.section-1-box-image-3,
+	.section-1-box-image-5 {
+		margin-right: 2%;
+	}
+	.section-1-box-images
+	.section-1-box-image-1 label,
+	.section-1-box-image-2 label,
+	.section-1-box-image-3 label,
+	.section-1-box-image-4 label,
+	.section-1-box-image-5 label,
+	.section-1-box-image-6 label {
+		font-size: 12px;
+	}
+	.section-2 label {
+	    padding-top: 10px;
+	    font-size: 12px;
+	}
+	.section-2 .section-2-trips a,
+	.section-2 .section-2-tech a {
+		top: 20%;
+	}
+	.section-2 .section-2-tech h3,
+	.section-2 .section-2-trips h3 {
+		font-size: 12px;
+	}
+	.footer p {
+		font-size: 15px;
+	}
+	.main-footer {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.footer-bottom {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+
+      
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+
+}
